@@ -23,7 +23,11 @@ form {
     background: rgb(109, 66, 9);
     color: aliceblue;
     max-width: fit-content;
-    padding: 0px 10px 0px 10px;
+    padding: 5px 10px 0px 10px;
     font-weight: 900;
+}
 
+input {
+    margin: 5px 0px 0px 3px;
+    max-width: fit-content;
 }
