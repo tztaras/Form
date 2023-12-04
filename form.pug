@@ -28,6 +28,24 @@ html(lang="en")
                 input(type="tel" id="phone" minlength="8" maxlength="15" required placeholder="+38xxxxxxxxxx" pattern="^\\+38\\d{10}$")
                 //- HTML input element has the specified pattern ^\+38\d{10}$, ensuring that the phone number starts with "+38" and is followed by exactly 10 digits. 
                 br
+                label(for="pbday") date of birth: 
+                input(type="date" id="bday")
+                br
+                label(for="height") height: 
+                input(type="number" id="height" placeholder="in cm" min="0" max="300" pattern="^[0-9]{3}$")
+                br
+                label(for="sex" class='sexlabel') Sex:  
+                
+                     
+                    input(type="radio" id='male' value='male' name='sex')
+                    label(for="male") Male     
+                    
+                    input(type="radio" id='Female' value='female' name='sex')
+                    label(for="female") Female  
+
+                    input(type="radio" id='Yes' value='yes' name='sex')
+                    label(for="Yes") Yes, please
+                br 
                 br
                 input(type="submit")
                 br
