@@ -1,8 +1,29 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(255, 213, 158);
 }
 
+.container {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+
+}
 
 .weakdoge {
     height: 200px;
+
+
+
+}
+
+form {
+    margin: 0px 0px 0px 0px;
+    background: rgb(109, 66, 9);
+    color: aliceblue;
+    max-width: fit-content;
+    padding: 0px 10px 0px 10px;
+    font-weight: 900;
+
 }
