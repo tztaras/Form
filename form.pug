@@ -14,8 +14,20 @@ html(lang="en")
 
             
             form(action="index.php" method="post") 
+                //- id must much with with label (id="username" to for="username")
                 label(for="username") username: 
                 input(type="text" id="username" minlength="5" maxlength="10" required placeholder="enter your username here")
+                br
+                label(for="password") password: 
+                input(type="password" id="password" minlength="8" maxlength="20" required placeholder="enter your password here") 
+                br
+                label(for="email") email: 
+                input(type="email" id="email" minlength="8" maxlength="20" required placeholder="yourmail@gmail.com") 
+                br
+                label(for="phone") tel #: 
+                input(type="tel" id="phone" minlength="8" maxlength="15" required placeholder="+38xxxxxxxxxx" pattern="^\\+38\\d{10}$")
+                //- HTML input element has the specified pattern ^\+38\d{10}$, ensuring that the phone number starts with "+38" and is followed by exactly 10 digits. 
+                br
                 br
                 input(type="submit")
                 br
