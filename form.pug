@@ -10,9 +10,7 @@ html(lang="en")
             h1 Simpl&#600 form
             img(src="./img/weakdoge.png", alt="", srcset="" class="weakdoge")
             h2 text
-            
 
-            
             form(action="index.php" method="post") 
                 //- id must much with with label (id="username" to for="username")
                 label(for="username") username: 
@@ -34,17 +32,17 @@ html(lang="en")
                 label(for="height") height: 
                 input(type="number" id="height" placeholder="in cm" min="0" max="300" pattern="^[0-9]{3}$")
                 br
-                label(for="sex" class='sexlabel') Sex:  
+                label(for="sex" class='sexlabel') Sex:
                 
                      
-                    input(type="radio" id='male' value='male' name='sex' class='rad')
-                    label(for="male") Male     
+                input(type="radio" id='male' value='male' name='sex' class="rad")
+                label(for="male") Male
                     
-                    input(type="radio" id='Female' value='female' name='sex' class='rad')
-                    label(for="female") Female  
+                input(type="radio" id='Female' value='female' name='sex' class="rad")
+                label(for="female") Female
 
-                    input(type="radio" id='Yes' value='yes' name='sex' class='rad')
-                    label(for="Yes") Yes, please
+                input(type="radio" id='Yes' value='yes' name='sex' class="rad")
+                label(for="Yes") Yes, please
                 br 
                 br
                 input(type="submit")

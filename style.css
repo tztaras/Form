@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    /* display: flex; */
+    display: flex;
     width: 1000px;
     align-items: center;
     justify-items: center;
@@ -29,6 +29,7 @@ form {
     font-weight: 900;
 }
 
+
 input {
     margin: 5px 0px 5px 3px;
     max-width: fit-content;
@@ -40,8 +41,50 @@ hr {
 
 }
 
+/* removing default input radio buttons and adding personal radio buttons */
+/* removing default input radio buttons and adding personal radio buttons */
+/* removing default input radio buttons and adding personal radio buttons */
+
+input[type="radio"] {
+    /* display: none;  <-- mistake by chatgpt*/
+    /* display: none;  <-- mistake by chatgpt*/
+    /* display: none;  <-- mistake by chatgpt*/
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+/* Style the custom radio container */
+
 .rad {
-    font-weight: bold;
+    content: ' ';
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    /* Adjust as needed */
+    margin-right: 15px;
+    /* Adjust as needed */
+    line-height: 1.5;
+}
+
+.rad::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #3498db;
+    /* Border color */
+    border-radius: 50%;
+    /* Make it round */
+    background-color: #fff;
+    /* Background color */
+    transition: 0.3s;
+
+}
+
+.rad input[type="radio"]:checked+.rad::before {
+    background-color: rgb(109, 66, 9);
 }
 
 
