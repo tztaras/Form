@@ -32,17 +32,17 @@ html(lang="en")
                 label(for="height") height: 
                 input(type="number" id="height" placeholder="in cm" min="0" max="300" pattern="^[0-9]{3}$")
                 br
-                label(for="sex" class='sexlabel') Sex:
-                
-                     
-                input(type="radio" id='male' value='male' name='sex' class="rad")
-                label(for="male") Male
-                    
-                input(type="radio" id='Female' value='female' name='sex' class="rad")
-                label(for="female") Female
+                label(class='sexlabel') Sex:
 
-                input(type="radio" id='Yes' value='yes' name='sex' class="rad")
-                label(for="Yes") Yes, please
+                    label(for='male' )
+                        input(type='radio' id='male' value='male' name='sex' class='rad')
+                        | Male
+                    label(for='female')
+                        input(type='radio' id='female' value='female' name='sex' class='rad')
+                        | Female
+                    label(for='yes' )
+                        input(type='radio' id='yes' value='yes' name='sex' class='rad' )
+                        | Yes, please
                 br 
                 br
                 input(type="submit")
