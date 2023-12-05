@@ -98,3 +98,47 @@ input[type="radio"] {
 /* .sexlabel {
     border: 1px solid yellowgreen;
 } */
+.switch {
+    background: rgb(223, 22, 22);
+}
+
+#switchform {
+    background: no-repeat;
+    position: relative;
+    width: 85px;
+    height: 40px;
+    appearance: none;
+    outline: none;
+    background: rgb(117, 104, 104) !important;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: inset 0 0 10px rgba(214, 22, 22, 0.9);
+
+
+}
+
+
+
+#switchform:checked {
+    background: rgb(170, 255, 0) !important;
+    ;
+}
+
+#switchform:before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: rgb(231, 231, 231) !important;
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: inset 0px 0px 4px rgb(1, 59, 6);
+    border: 0.1px solid rgba(112, 175, 11, 0.911);
+}
+
+#switchform:checked:before {
+    left: 42.5px;
+}
