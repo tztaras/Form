@@ -32,7 +32,7 @@ form {
 
 input {
     margin: 5px 0px 5px 3px;
-    max-width: fit-content;
+    /* max-width: fit-content; this will hide background for switcher*/
 }
 
 hr {
@@ -41,17 +41,6 @@ hr {
 
 }
 
-/* removing default input radio buttons and adding personal radio buttons */
-/* removing default input radio buttons and adding personal radio buttons */
-/* removing default input radio buttons and adding personal radio buttons */
-
-
-/* 
-input[type="radio"] {
-
-    appearance: none;
-   
-} */
 
 .rad {
     content: ' ';
@@ -72,73 +61,49 @@ input[type="radio"] {
 
 
 
-/* .rad::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 11px;
-    height: 11px;
-    border: 2px solid rgb(109, 66, 9);
-
-    border-radius: 50%;
-    background-color: #fff;
-} */
-
-/* input[type='radio'].rad:checked+.rad::before {
-    appearance: auto;
-    background-color: rgb(109, 9, 101);
-    color: blueviolet;
-    cursor: crosshair;
-
-} */
 
 
+input[type='checkbox'] {
 
-/* .sexlabel {
-    border: 1px solid yellowgreen;
-} */
-.switch {
-    background: rgb(223, 22, 22);
-}
-
-#switchform {
-    background: no-repeat;
     position: relative;
     width: 85px;
-    height: 40px;
+    height: 20px;
     appearance: none;
     outline: none;
-    background: rgb(117, 104, 104) !important;
+    background: rgb(32, 32, 194);
     border-radius: 20px;
     transition: 1s;
-    box-shadow: inset 0 0 10px rgba(214, 22, 22, 0.9);
+    box-shadow: inset 0 0 10px rgba(158, 157, 157, 0.9);
+
 
 
 }
 
 
 
-#switchform:checked {
-    background: rgb(170, 255, 0) !important;
-    ;
+input:checked[type='checkbox'] {
+    background: rgb(235, 10, 10);
+
+
+
 }
 
-#switchform:before {
+input[type='checkbox']:before {
     content: '';
     position: absolute;
     width: 40px;
-    height: 40px;
+    height: 20px;
     border-radius: 20px;
     top: 0;
     left: 0;
-    background: rgb(231, 231, 231) !important;
+    background: rgb(30, 168, 18);
     transition: 1s;
     transform: scale(1.1);
-    box-shadow: inset 0px 0px 4px rgb(1, 59, 6);
-    border: 0.1px solid rgba(112, 175, 11, 0.911);
+    box-shadow: inset 0px 0px 4px rgb(10, 238, 29);
+    border: 0.1px solid rgba(164, 168, 156, 0.911);
 }
 
-#switchform:checked:before {
+input:checked[type='checkbox']:before {
     left: 42.5px;
+
 }
