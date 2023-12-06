@@ -31,18 +31,37 @@ form {
 
 
 input {
-    margin: 5px 0px 5px 3px;
+    margin: 1px 0px 5px 3px;
     /* max-width: fit-content; this will hide background for switcher*/
 }
 
 hr {
-    border: 1.5px solid aliceblue;
+    border: 2px solid aliceblue;
 
 
 }
 
+.rad input {
+    accent-color: rgba(255, 153, 0, 0.897);
+    cursor: pointer;
+    margin: 5px 0px 0px 15px;
 
-.rad {
+}
+
+.subscribe,
+.rad input:hover {
+    cursor: pointer;
+}
+
+.sexlabel {
+    display: flex;
+}
+
+.subscribe input {
+    accent-color: rgba(255, 153, 0, 0.897);
+}
+
+/* .rad {
     content: ' ';
     display: inline-block;
     position: relative;
@@ -53,10 +72,9 @@ hr {
     cursor: pointer;
     color: rgb(42, 165, 42);
     background-color: rgb(0, 255, 170);
+} */
 
 
-
-}
 
 .switch {
     display: flex;

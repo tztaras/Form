@@ -4,6 +4,7 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="style.css")
+        link(rel="icon", href="./img/doge.ico", type="image/ico")
         title Form
     body 
       
@@ -32,17 +33,20 @@ html(lang="en")
                 label(for="height") height: 
                 input(type="number" id="height" placeholder="in cm" min="0" max="300" pattern="^[0-9]{3}$")
                 br
-                label(class='sexlabel') Sex:
+                label(class='sexlabel') Sex: 
+                    br
 
-                    label(for='male' )
-                        input(type='radio' id='male' value='male' name='sex' class='rad')
-                        | Male
-                    label(for='female')
-                        input(type='radio' id='female' value='female' name='sex' class='rad')
-                        | Female
-                    label(for='yes' )
-                        input(type='radio' id='yes' value='yes' name='sex' class='rad' )
-                        | Yes, please
+                    .rad 
+                        input(type='radio' id='male' value='male' name='sex') 
+                        label(for='male' ) Male  
+                        
+                    .rad 
+                        input(type='radio' id='female' value='female' name='sex')
+                        label(for='female') Female
+                    .rad 
+                        
+                        input(type='radio' id='yes' value='yes' name='sex')
+                        label(for='yes' ) Yes, please
                 br 
                 label(for="sport") Your sport: 
                 select(id="sport")  
@@ -50,8 +54,8 @@ html(lang="en")
                     option(value="swimming") swimming &#127946 
                     option(value="running") running &#x1F3C3
                 br
-                label(for="subscribe") subscribe for news 
-                input(type='checkbox' id='subscribe')
+                label.subscribe(for="subscribe") subscribe for news 
+                    input(type='checkbox' id='subscribe')
                 br
                 label(for="feedback") leave your feedback:
                 textarea#feedback(name="feedback", cols="30", rows="3") 
