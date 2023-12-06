@@ -58,7 +58,15 @@ hr {
 
 }
 
+.switch {
+    display: flex;
+    align-items: center;
 
+}
+
+.switch label {
+    margin-top: 12px;
+}
 
 
 
