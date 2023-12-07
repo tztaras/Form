@@ -48,13 +48,16 @@ html(lang="en")
                         input(type='radio' id='yes' value='yes' name='sex')
                         label(for='yes' ) Yes, please
                 br 
+                
+                .sportbox 
                 label(for="sport") Your sport: 
-                select(id="sport")  
-                    option(value="hobbyhorsing") hobbyhorsing &#128014
-                    option(value="swimming") swimming &#127946 
-                    option(value="running") running &#x1F3C3
+                    select(id="sport")  
+                        option(value="hobbyhorsing") hobbyhorsing &#128014
+                        option(value="swimming") swimming &#127946 
+                        option(value="running") running &#x1F3C3
                 br
-                label.subscribe(for="subscribe") subscribe for news 
+                .subscribe
+                    label(for="subscribe") subscribe for news 
                     input(type='checkbox' id='subscribe')
                 br
                 .feedback 
