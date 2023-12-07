@@ -21,10 +21,10 @@ function alphaform(action) {
   
     
     
-    doge = (doge === 'weakdoge.png') ? 'strongdoge.jpg' : 'weakdoge.png';
+    doge = (doge === 'weakdoge.png') ? 'strongdoge.png' : 'weakdoge.png';
     dogeImage.src = './img/' + doge;
     
-    // changeDoge('./img/strongdoge.jpg');
+   
 
     
     
@@ -50,24 +50,3 @@ function alphaform(action) {
 }
 
 
-// function changeDoge(img) {
-//         document.querySelector('#dogeImage').setAttribute('src', img);
-        
-//     }
-    
-
-
-// document.querySelector('#switchform').addEventListener('click', function () {
-//     dogeToggle();
-// });
-
-// function dogeToggle() {
-//     let dogetype = document.querySelector('#dogeImage');
-//      console.log('Current Image Source:', dogetype.src);
-//     if (dogetype.src.endsWith('./img/strongdoge.jpg')) {
-//         changeDoge('./img/weakdoge.png');
-//     } else {
-//         changeDoge('./img/strongdoge.jpg');
-//     }
-//     console.log('New Image Source:', dogetype.src);
-// }
