@@ -14,7 +14,7 @@ body {
 .alphaform {
     background-color: rgb(255, 213, 158);
     border: 5px solid rgb(109, 66, 9);
-    transition: 1s;
+    transition: 3s;
 
 }
 
@@ -47,9 +47,10 @@ form {
 
 .form-alphaform {
     background: rgb(109, 66, 9);
-    color: azure;
-    transition: 1s;
+    color: rgb(255, 255, 255);
+    transition: 3s;
 }
+
 
 
 input {
@@ -64,7 +65,7 @@ input {
 }
 
 hr {
-    border: 2px solid aliceblue;
+    border: 2px solid rgb(255, 255, 255);
     margin: 0px 5px 0px 0px;
 
 
@@ -84,7 +85,7 @@ hr {
 
 
 .subscribe {
-    margin: 5px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 .subscribe,
@@ -101,7 +102,7 @@ hr {
     margin: -10px 0px 0px 0px;
 }
 
-.subscribe input {
+.rad-alpha input {
     accent-color: rgba(255, 153, 0, 0.897);
 
 }
@@ -195,3 +196,10 @@ hr {
     left: 38px;
 
 }
+
+
+
+/* #submit {
+    color: whitesmoke;
+    background: rgb(189, 69, 33);
+} */

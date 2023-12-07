@@ -2,6 +2,7 @@
 console.log('DOGE');
 let doge = 'weakdoge.png';
 let dogeImage = document.getElementById('dogeImage');
+// dogeImage.style.transition = '2s';
 let sw = document.querySelector('.switch').onclick = alphaform;
 function alphaform(action) {
 
@@ -22,7 +23,10 @@ function alphaform(action) {
     
     
     doge = (doge === 'weakdoge.png') ? 'strongdoge.png' : 'weakdoge.png';
+    // dogeImage.style.transition = 'none';
     dogeImage.src = './img/' + doge;
+    // dogeImage.offsetWidth;
+    dogeImage.style.transform = '1s';
     
    
 
@@ -42,10 +46,12 @@ function alphaform(action) {
         ii.classList.toggle('input-alpha');
     });
     
-    let rb = document.querySelectorAll('.rad');
+    let rb = document.querySelectorAll('.rad, .subscribe');
     rb.forEach( (rborange) => {
         rborange.classList.toggle('rad-alpha')
     });
+
+    // let su = getElementById('submit')
 
 }
 
