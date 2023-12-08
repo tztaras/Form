@@ -47,9 +47,10 @@ function alphaform(action) {
     let opt = document.querySelectorAll('.sp-option');
     opt.forEach((optopt) => {
         optopt.classList.toggle('alpha-option');
-    })
+    });
         // ПОЛЕ ФИДБЕКА ФОН И ШРИФТ
     // let su = getElementById('submit')
+    // 'another' email
 
 }
 
