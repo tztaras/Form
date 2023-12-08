@@ -27,14 +27,7 @@ function alphaform(action) {
     dogeImage.src = './img/' + doge;
     // dogeImage.offsetWidth;
     dogeImage.style.transform = '1s';
-    
-   
 
-    
-    
- 
-
-   
     let b = document.querySelector('body');
     b.classList.toggle('alphaform');
 
@@ -48,9 +41,14 @@ function alphaform(action) {
     
     let rb = document.querySelectorAll('.rad, .subscribe');
     rb.forEach( (rborange) => {
-        rborange.classList.toggle('rad-alpha')
+        rborange.classList.toggle('rad-alpha');
     });
 
+    let opt = document.querySelectorAll('.sp-option');
+    opt.forEach((optopt) => {
+        optopt.classList.toggle('alpha-option');
+    })
+        // ПОЛЕ ФИДБЕКА ФОН И ШРИФТ
     // let su = getElementById('submit')
 
 }

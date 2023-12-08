@@ -15,6 +15,7 @@ body {
     background-color: rgb(255, 213, 158);
     border: 5px solid rgb(109, 66, 9);
     transition: 3s;
+    
 
 }
 
@@ -55,13 +56,17 @@ form {
 
 input {
     margin: 1px 0px 5px 3px;
+    
+    
 
     /* max-width: fit-content; this will hide background for switcher*/
 }
 
+
+
 .input-alpha {
     background-color: rgb(255, 229, 195);
-    color: rgb(129, 129, 129);
+    color: rgb(109, 66, 9);
 }
 
 hr {
@@ -100,12 +105,20 @@ hr {
 
 .sportbox {
     margin: -10px 0px 0px 0px;
+   
+}
+
+.alpha-option {
+   background:  rgb(255, 229, 195);
+   color: black;
 }
 
 .rad-alpha input {
     accent-color: rgba(255, 153, 0, 0.897);
 
 }
+
+
 
 .feedback {
     display: flex;
