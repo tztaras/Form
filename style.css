@@ -125,6 +125,11 @@ hr {
     margin: -10px 0px 0px 0px;
 }
 
+#feedback {
+    background: rgb(255, 229, 195);
+    color: rgb(109, 66, 9);
+}
+
 /* .rad {
     content: ' ';
     display: inline-block;
