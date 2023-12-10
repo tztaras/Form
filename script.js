@@ -48,7 +48,12 @@ function alphaform(action) {
     opt.forEach((optopt) => {
         optopt.classList.toggle('alpha-option');
     });
-        // ПОЛЕ ФИДБЕКА ФОН И ШРИФТ ALPHAFEEDBACK
+
+    let feed = document.getElementById('feedback');
+    
+    feed.classList.toggle('alpha-feedback');
+    
+       
     // let su = getElementById('submit')
     // 'another' email
 
