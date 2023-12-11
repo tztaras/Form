@@ -52,10 +52,16 @@ function alphaform(action) {
     let feed = document.getElementById('feedback');
     
     feed.classList.toggle('alpha-feedback');
+
+    let doc = document.getElementById('file');
+    doc.classList.toggle('alpha-upload');
+
+    let sub = document.getElementById('submit');
+    sub.classList.toggle('alpha-submit');
+
     
        
-    // let su = getElementById('submit')
-    // 'another' email
+   
 
 }
 

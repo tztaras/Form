@@ -56,6 +56,7 @@ form {
 
 input {
     margin: 1px 0px 5px 3px;
+    border-radius: 4px;
     
     
 
@@ -105,12 +106,18 @@ hr {
 
 .sportbox {
     margin: -10px 0px 0px 0px;
+    
    
+}
+
+.sp-option{
+    border-radius: 4px;
 }
 
 .alpha-option {
    background:  rgb(255, 229, 195);
    color: black;
+   
 }
 
 .rad-alpha input {
@@ -123,11 +130,23 @@ hr {
 .feedback {
     display: flex;
     margin: -10px 0px 0px 0px;
+    border-radius: 4px;
 }
 
 .alpha-feedback {
     background: rgb(255, 229, 195);
     color: rgb(109, 66, 9);
+    border-radius: 4px;
+}
+
+#file{
+    border-radius: 4px;
+}
+.alpha-upload{
+    border: 1px solid #ccc;
+        
+    border-radius: 4px;
+    
 }
 
 /* .rad {
@@ -217,7 +236,11 @@ hr {
 
 
 
-/* #submit {
-    color: whitesmoke;
-    background: rgb(189, 69, 33);
-} */
+.alpha-submit {
+    height: 35px;
+    border: 4px solid rgb(255, 255, 255);
+    color: rgb(189, 69, 33);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+}
