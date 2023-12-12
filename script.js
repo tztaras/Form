@@ -3,6 +3,10 @@ console.log('DOGE');
 let doge = 'weakdoge.png';
 let dogeImage = document.getElementById('dogeImage');
 // dogeImage.style.transition = '2s';
+
+
+let storedAlphaModeActivated = localStorage.getItem('alpha');
+
 let sw = document.getElementById('switchform').onclick = alphaform;
 function alphaform(action) {
 
@@ -65,8 +69,15 @@ function alphaform(action) {
     let reset = document.querySelector('.resbutton');
     reset.classList.toggle('alpha-res');
        
-   
+    // let alphaModeActivated = document.body.classList.contains('alphaform, form-alphaform, input-alpha, rad-alpha, alpha-option, alpha-feedback, alpha-upload, alpha-submit, alpha-hr, alpha-res');
+    let alphaModeActivated = document.body.classList.contains('alphaform');
+    localStorage.setItem('alpha', alphaModeActivated);
+    sw.checked = alphaModeActivated;
 
 }
 
 
+if (storedAlphaModeActivated === 'true') {
+    alphaform();
+    sw.checked = true;
+}
