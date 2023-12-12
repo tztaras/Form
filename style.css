@@ -7,6 +7,7 @@ body {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
+    max-height: max-content;
     /* margin: 20px; */
 
 }
@@ -81,7 +82,7 @@ hr {
 }
 
 .alpha-hr {
-    margin-top: -14px;
+    margin-top: -15px;
 }
 
 
@@ -115,10 +116,12 @@ hr {
 
 .sportbox {
     margin: -10px 0px 0px 0px;
+    border-radius: 4px;
 
 
 
 }
+
 
 .sp-option {
     border-radius: 4px;
@@ -148,6 +151,10 @@ hr {
     display: flex;
     margin: -10px 0px 1px 0px;
     border-radius: 4px;
+}
+
+#feedback {
+    margin-left: 5px;
 }
 
 .alpha-feedback {
