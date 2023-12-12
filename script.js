@@ -3,7 +3,7 @@ console.log('DOGE');
 let doge = 'weakdoge.png';
 let dogeImage = document.getElementById('dogeImage');
 // dogeImage.style.transition = '2s';
-let sw = document.querySelector('.switch').onclick = alphaform;
+let sw = document.getElementById('switchform').onclick = alphaform;
 function alphaform(action) {
 
 
@@ -59,7 +59,8 @@ function alphaform(action) {
     let sub = document.getElementById('submit');
     sub.classList.toggle('alpha-submit');
 
-    
+    let hrbot = document.querySelector('.bothr');
+    hrbot.classList.toggle('alpha-hr');
        
    
 

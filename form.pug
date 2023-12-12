@@ -13,6 +13,11 @@ html(lang="en")
                 h2 text
         
             form(action="index.php" method="post"  enctype='multipart/form-data') 
+                .switch
+                    label.logoalpha(for="switchform") ACTIVATE ALPHA FORM
+                    input(type="checkbox" name='switchform' id='switchform' )
+                br
+                hr
                 //- id must much with with label (id="username" to for="username")
                 label(for="username") username: 
                 input(type="text" id="username" minlength="5" maxlength="10" required placeholder="enter your username here")
@@ -64,22 +69,22 @@ html(lang="en")
                     label(for="feedback") leave your feedback: 
                     textarea#feedback(name="feedback", cols="20", rows="2") 
                 br
-                label(for="file") file: 
-                input(type="file" id='file' accept='image/png, image/ico, image/jpeg' )
+
+                .fileupload
+                    label(for="file") file: 
+                    input(type="file" id='file' accept='image/png, image/ico, image/jpeg' )
                 br
 
 
 
 
                 br
-                input#submit(type="submit") 
-                .switch
-                    label.logoalpha(for="switchform") ACTIVATE ALPHA FORM
-                    input(type="checkbox" name='switchform' id='switchform' )
-                
+                .submitbutton
+                    input#submit(type="submit") 
+              
                
                 br
-                hr
+                hr.bothr
                 input(type="reset")
 
     script(src="script.js") 
