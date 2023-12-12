@@ -7,7 +7,8 @@ let dogeImage = document.getElementById('dogeImage');
 
 let storedAlphaModeActivated = localStorage.getItem('alpha');
 
-let sw = document.getElementById('switchform').onclick = alphaform;
+let sw = document.getElementById('switchform');
+sw.onclick = alphaform;
 function alphaform(action) {
 
 
