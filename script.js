@@ -61,6 +61,9 @@ function alphaform(action) {
 
     let hrbot = document.querySelector('.bothr');
     hrbot.classList.toggle('alpha-hr');
+
+    let reset = document.querySelector('.resbutton');
+    reset.classList.toggle('alpha-res');
        
    
 

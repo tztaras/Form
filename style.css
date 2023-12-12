@@ -7,8 +7,7 @@ body {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    max-height: max-content;
-    /* margin: 20px; */
+
 
 }
 
@@ -82,7 +81,7 @@ hr {
 }
 
 .alpha-hr {
-    margin-top: -15px;
+    margin-top: -14px;
 }
 
 
@@ -285,4 +284,13 @@ hr {
     cursor: pointer;
     transform: scale(1.1);
 
+}
+
+
+
+
+.alpha-res {
+    background: linear-gradient(90deg, rgb(255, 255, 255) 20%, rgb(255,
+                213,
+                158) 96%);
 }
