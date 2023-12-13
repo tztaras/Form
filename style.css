@@ -7,7 +7,7 @@ body {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-
+    transition: 3s;
 
 }
 
@@ -18,7 +18,7 @@ p {
 .alphaform {
     background-color: rgb(255, 213, 158);
     border: 5px solid rgb(109, 66, 9);
-    transition: 3s;
+    /* transition: 2s; */
 
 
 }
@@ -31,6 +31,10 @@ p {
     justify-items: center;
     margin: 0 auto;
 
+}
+
+.formcolumn {
+    transition: 1s;
 }
 
 /* .weakdoge {
@@ -54,7 +58,7 @@ form {
 .form-alphaform {
     background: rgb(109, 66, 9);
     color: rgb(255, 255, 255);
-    /* transition: 3s; */
+    transition: 5s;
 
 }
 
@@ -232,7 +236,7 @@ hr {
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.911);
 
-    transition: 1s;
+    /* transition: 1s; */
     box-shadow: inset 0 0 5px rgba(109, 66, 9, 0.9);
 
 
