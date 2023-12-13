@@ -11,6 +11,10 @@ body {
 
 }
 
+p {
+    max-width: fit-content;
+}
+
 .alphaform {
     background-color: rgb(255, 213, 158);
     border: 5px solid rgb(109, 66, 9);
@@ -50,7 +54,7 @@ form {
 .form-alphaform {
     background: rgb(109, 66, 9);
     color: rgb(255, 255, 255);
-    transition: 3s;
+    /* transition: 3s; */
 
 }
 

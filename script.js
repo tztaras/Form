@@ -31,13 +31,18 @@ function alphaform(action) {
     // dogeImage.style.transition = 'none';
     dogeImage.src = './img/' + doge;
     // dogeImage.offsetWidth;
-    dogeImage.style.transform = '1s';
+    // dogeImage.style.transform = '1s';
 
     let b = document.querySelector('body');
     b.classList.toggle('alphaform');
 
-    let f = document.querySelector('form');
-    f.classList.toggle('form-alphaform');
+    let f = document.querySelectorAll('.formcolumn, .withdata');
+    f.forEach((ff) => {
+        ff.classList.toggle('form-alphaform');
+    });
+    
+
+ 
 
     let i = document.querySelectorAll('input');
     i.forEach( (ii) => {
@@ -77,8 +82,13 @@ function alphaform(action) {
 
 }
 
+// let reset = document.querySelector('.resbutton');
+// reset.onclick = alphaform();
 
 if (storedAlphaModeActivated === 'true') {
     alphaform();
     sw.checked = true;
 }
+
+
+
