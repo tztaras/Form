@@ -141,8 +141,9 @@ hr {
 
 .alpha-option {
     background: rgb(255, 229, 195);
-    color: black;
+    color: rgb(109, 66, 9);
     border-radius: 4px;
+    font-weight: bold;
 
 }
 
@@ -178,9 +179,9 @@ hr {
     border: 1px;
 }
 
-/* .fileupload {
-    margin-top: 10px;
-} */
+#file:hover {
+    cursor: pointer;
+}
 
 .alpha-upload {
     border: 1px solid #ccc;
@@ -303,6 +304,11 @@ hr {
 .resbutton {
     height: 25px;
 }
+
+.resbutton:hover {
+    cursor: pointer;
+}
+
 
 
 .alpha-res {
