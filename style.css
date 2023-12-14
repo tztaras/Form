@@ -33,9 +33,9 @@ p {
 
 }
 
-.formcolumn {
+/* .formcolumn {
     transition: 1s;
-}
+} */
 
 /* .weakdoge {
     height: 200px;
@@ -58,7 +58,7 @@ form {
 .form-alphaform {
     background: rgb(109, 66, 9);
     color: rgb(255, 255, 255);
-    transition: 5s;
+    transition: 2s;
 
 }
 
@@ -236,8 +236,8 @@ textarea {
     margin: 15px 5px 5px 15px;
 
     position: relative;
-    width: 69px;
-    height: 31px;
+    width: 60px;
+    height: 30px;
     appearance: none;
     outline: none;
     background: rgba(236, 139, 11, 0);
@@ -272,7 +272,7 @@ textarea {
     width: 29px;
     height: 29px;
     border-radius: 20px;
-    top: -1.5px;
+    top: -0.75px;
     left: 0;
 
     background: rgb(189, 69, 33);
@@ -283,7 +283,7 @@ textarea {
 }
 
 #switchform:checked:before {
-    left: 38px;
+    left: 30px;
 
 }
 
