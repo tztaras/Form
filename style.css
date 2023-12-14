@@ -172,6 +172,12 @@ hr {
     background: rgb(255, 229, 195);
     color: rgb(109, 66, 9);
     border-radius: 4px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 150px;
+    resize: vertical;
 }
 
 #file {
