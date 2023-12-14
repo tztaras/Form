@@ -91,8 +91,12 @@ hr {
 
 }
 
+.bothr {
+    margin-top: 5px;
+}
+
 .alpha-hr {
-    margin-top: -14px;
+    margin-top: 5px;
 }
 
 
@@ -288,6 +292,10 @@ textarea {
 #switchform:checked:before {
     left: 28px;
 
+}
+
+.submitbutton {
+    height: 35px;
 }
 
 

@@ -91,4 +91,11 @@ if (storedAlphaModeActivated === 'true') {
 }
 
 
+let submit = document.getElementById('submit');
+submit.onclick = ()=> {
+    console.log('wow, such form, much info');
+    let form = document.querySelector('form');
+    console.dir(form[9]);
+}
+
 
