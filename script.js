@@ -74,6 +74,7 @@ function alphaform(action) {
 
     let reset = document.querySelector('.resbutton');
     reset.classList.toggle('alpha-res');
+
        
     // let alphaModeActivated = document.body.classList.contains('alphaform, form-alphaform, input-alpha, rad-alpha, alpha-option, alpha-feedback, alpha-upload, alpha-submit, alpha-hr, alpha-res');
     let alphaModeActivated = document.body.classList.contains('alphaform');
