@@ -92,11 +92,17 @@ if (storedAlphaModeActivated === 'true') {
 }
 
 
-let submit = document.getElementById('submit');
-submit.onclick = ()=> {
-    console.log('wow, such form, much info');
+document.getElementById('testsend').addEventListener('click', () => {
     let form = document.querySelector('form');
-    console.dir(form[9]);
-}
+    console.log('wow, such form, much info');
+    console.dir(form)
+    console.dir(form.elements.sport.value);
+   
+    let i = document.querySelector('.info');
+    i.innerHTML =form.elements.username.value +' '+form.elements.phone.value+' '+ form.elements.sport.value;
+
+} )
+  
+
 
 
