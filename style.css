@@ -137,9 +137,9 @@ hr {
 }
 
 
-#sport option {
+/* #sport {
     border-radius: 4px;
-}
+} */
 
 
 
@@ -208,16 +208,9 @@ textarea {
 }
 
 /* .rad {
-    content: ' ';
-    display: inline-block;
-    position: relative;
-    padding-left: 27px;
-    margin-left: 16px;
-    margin-bottom: 13px;
-    margin-right: 5px;
-    cursor: pointer;
-    color: rgb(42, 165, 42);
-    background-color: rgb(0, 255, 170);
+  
+    margin-top: 13px;
+   
 } */
 
 .logoalpha {
