@@ -1,3 +1,19 @@
+function oddCount(n){
+    // n = 1500;
+  let oddNumbers = 0;
+  for(let i = 1; i < n; i++){
+    if(i % 2 !== 0){
+      oddNumbers++
+    }
+    }
+    console.log(oddNumbers);
+    return oddNumbers
+    
+}
+oddCount(15);
+console.log(Math.floor(15 / 2));
+
+
 
 console.log('DOGE');
 let doge = 'weakdoge.png';
@@ -92,16 +108,16 @@ if (storedAlphaModeActivated === 'true') {
 }
 
 
-document.getElementById('testsend').addEventListener('click', () => {
-    let form = document.querySelector('form');
-    console.log('wow, such form, much info');
-    console.dir(form)
-    console.dir(form.elements.sport.value);
+// document.getElementById('testsend').addEventListener('click', () => {
+//     let form = document.querySelector('form');
+//     console.log('wow, such form, much info');
+//     console.dir(form)
+//     console.dir(form.elements.sport.value);
    
-    let i = document.querySelector('.info');
-    i.innerHTML =form.elements.username.value +' '+form.elements.phone.value+' '+ form.elements.sport.value;
+//     let i = document.querySelector('.info');
+//     i.innerHTML =form.elements.username.value +' '+form.elements.phone.value+' '+ form.elements.sport.value;
 
-} )
+// } )
   
 
 
